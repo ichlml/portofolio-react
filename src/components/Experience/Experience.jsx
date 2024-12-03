@@ -23,7 +23,7 @@ const Experience = () => {
       className="text-2xl md:text-4xl mt-10 text-white font-bold"
     >
       <div className="flex flex-wrap items-center justify-around">
-        <div className="flex flex-wrap md:w-2/5 gap-8 md:p-12 py-10">
+        <div className="flex flex-wrap md:w-2/5 gap-8 md:p-12 py-10 px-12">
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <FaHtml5 color="#E34F26" size={50} />
           </span>
@@ -49,7 +49,7 @@ const Experience = () => {
             <FaDatabase color="#FF4438" size={50} />
           </span>
         </div>
-        <div>
+        <div className="md:p-12 py-10 px-10">
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
             <FaHospital color="#4285F4" size={50} />
             <span className="text-white">
