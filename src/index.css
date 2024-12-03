@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
+:root {
   font-family: "Roboto", sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
 }
